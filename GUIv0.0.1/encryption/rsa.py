@@ -4,7 +4,7 @@ import math
 def prime(n):
     sq = int(math.sqrt(n))
     if n == 2 or n == 3:
-        return False
+        return True
     else:
         for i in range(2,sq):
             if n%i == 0:
